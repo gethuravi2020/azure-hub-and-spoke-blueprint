@@ -20,7 +20,7 @@
         "firewallIp": "10.0.0.100",
         "hubVnetId": "[concat('/subscriptions/', variables('hubSubscriptionId'), '/resourceGroups/', variables('hubVnetResourceGroupName'), '/providers/Microsoft.Network/virtualNetworks/', variables('hubVnetName'))]",
         "hubVnetName": "hub-net",
-        "hubSubscriptionId": "4fd63c38-a6be-4fb1-ac9e-ab1781af69ad",
+        "hubSubscriptionId": "69f26762-afa0-46b5-8311-4fbdf35b3060",
         "hubVnetResourceGroupName": "mytestvnet-rg",
         "spokeVnetName": "[concat(parameters('projectPrefix'), '-vnet')]",
         "spokeVnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('spokeVnetName'))]"
