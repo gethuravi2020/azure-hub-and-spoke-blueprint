@@ -42,7 +42,7 @@
                 },
                 "subnets": [
                     {
-                        "name": "trusted-subnet",
+                        "name": "trustedSubnet",
                         "properties": {
                             "addressPrefix": "[parameters('trustedSubnetRange')]",
                             "routeTable": {
@@ -51,7 +51,7 @@
                         }
                     },
                     {
-                        "name": "untrusted-subnet",
+                        "name": "untrustedSubnet",
                         "properties": {
                             "addressPrefix": "[parameters('untrustedSubnetRange')]",
                             "routeTable": {
